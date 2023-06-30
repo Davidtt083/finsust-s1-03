@@ -141,9 +141,10 @@ a {
 }
 
 .princ {
+  position: absolute;
   background-color: #000;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 50%;
   width: 25%;
   height: 40%;
   border: solid #fff 2px;
@@ -413,12 +414,13 @@ a {
 .hide {
   visibility: hidden;
   opacity: 0;
-  margin-top: -386px !important;
+  margin-top: -431px !important;
 }
 
 .activo {
-  color: #d18a29 !important;
-  border: solid #d18a29 4px;
+  color: #009fb4 !important;
+  border: solid #009fb4 4px;
+  z-index: 20;
   box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
@@ -543,12 +545,12 @@ a {
 
 .texto1 {
   position: absolute;
-  margin-top: -397px;
-  margin-left: 141px;
-  width: 78%;
-  height: 481px;
+  margin-top: -434px;
+  margin-left: 402px;
+  width: 48%;
+  height: 416px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  color: #000000;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 0;
@@ -556,20 +558,20 @@ a {
   padding-right: 16px;
   transition: all 1s;
   align-content: center;
-  /*text-align: justify;*/
+  /* text-align: justify; */
   line-height: 21px;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
 
-.intertexto{
+.intertexto {
   width: 100%;
   padding-top: 2%;
   display: flex;
 }
 
-.parr{
+.parr {
   width: 93%;
   margin: 0;
   position: absolute;
@@ -577,20 +579,66 @@ a {
   transform: translateY(-50%);
 }
 
-.conteima{
+.conteima {
   width: 30%;
   margin-left: 67%;
 }
-.contimachild{
+
+.contimachild {
   width: 222px;
 }
 
-.tituparr{
+.tituparr {
   color: #009fb4;
   font-size: 21px;
   text-align: left !important;
 }
 
-.justo{
+.justo {
   text-align: justify;
+}
+
+.btn1 {
+  background-image: url("circ-01.jpg");
+  background-size: 214px 242px;
+  transition: all 0.5s;
+  margin-top: 38px;
+  margin-left: 1px;
+}
+
+.btn1:hover {
+  opacity: 0.5;
+  color: #d18a29;
+}
+
+.btn2 {
+  background-image: url("circ-02.jpg");
+  background-size: 321px 242px;
+  transition: all 0.5s;
+  margin-top: 165px;
+  margin-left: -86px;
+}
+
+.btn2:hover {
+  opacity: 0.5;
+  color: #d18a29;
+}
+
+.btn3 {
+  background-image: url("circ-03.jpg");
+  background-size: 292px 242px;
+  transition: all 0.5s;
+  line-height: 22px;
+  padding-top: 66px;
+  margin-top: 165px;
+  margin-left: 80px;
+}
+
+.btn3:hover {
+  opacity: 0.5;
+  color: #d18a29;
+}
+
+.listas{
+  margin-left: 25px;
 }
