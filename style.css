@@ -8,7 +8,7 @@
 
 .very-specific-design {
   width: 1000px;
-  height: 720px;
+  height: 620px;
   padding: 50px;
   text-align: center;
   background: white;
@@ -146,7 +146,7 @@ a {
   color: #fff;
   border-radius: 50%;
   width: 25%;
-  height: 40%;
+  height: 48%;
   border: solid #fff 2px;
   margin-top: 18%;
   margin-left: 6.25%;
@@ -545,10 +545,10 @@ a {
 
 .texto1 {
   position: absolute;
-  margin-top: -434px;
-  margin-left: 402px;
+  margin-top: -403px;
+  margin-left: 452px;
   width: 48%;
-  height: 416px;
+  height: 362px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #000000;
   border-radius: 20px;
@@ -639,6 +639,6 @@ a {
   color: #d18a29;
 }
 
-.listas{
+.listas {
   margin-left: 25px;
 }
