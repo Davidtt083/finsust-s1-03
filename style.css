@@ -67,7 +67,7 @@ a {
 .bgcontenedor {
   display: flex;
   background-position: center;
-  background-size: 102% 89%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   max-width: 100%;
   background-image: url("bg-index.png");
@@ -135,8 +135,8 @@ a {
   position: absolute;
   width: 80%;
   height: 70%;
-  margin-top: -447px;
-  margin-left: 10%;
+  margin-top: -409px;
+  margin-left: 13%;
   display: flex;
 }
 
